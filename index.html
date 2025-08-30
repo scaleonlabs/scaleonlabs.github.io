@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ScaleOnLabs — Cloud, DevOps & SRE Experts</title>
+  <meta name="description" content="We scale startups with rock‑solid DevOps, SRE, and Cloud engineering. Cut cloud costs, ship faster, and sleep better." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect width='256' height='256' rx='48' fill='%230B3D91'/><path d='M64 168c24 0 40-12 56-40 16-28 32-40 56-40' fill='none' stroke='%2300F0FF' stroke-width='20' stroke-linecap='round'/></svg>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ScaleOnLabs — Cloud, DevOps & SRE Experts" />
+  <meta property="og:description" content="We scale startups with rock‑solid DevOps, SRE, and Cloud engineering." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://scaleonlabs.com/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="ScaleOnLabs — Cloud, DevOps & SRE Experts" />
+  <meta name="twitter:description" content="We scale startups with rock‑solid DevOps, SRE, and Cloud engineering." />
+
+  <!-- SEO basics -->
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://scaleonlabs.com/" />
+
+  <!-- Minimal styles (no frameworks) -->
+  <style>
+    :root{
+      --primary:#0B3D91; /* Deep Blue */
+      --accent:#00F0FF;  /* Neon Cyan */
+      --bg:#0b1020;
+      --text:#eaf2ff;
+      --muted:#9bb3d0;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"}
+    body{background:linear-gradient(180deg, #0b1020 0%, #0a1730 100%); color:var(--text)}
+    .wrap{max-width:1000px;margin:0 auto;padding:32px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:8px 0}
+    .logo{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--text)}
+    .logo-mark{width:36px;height:36px;border-radius:10px;background:var(--primary);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .logo-mark svg{width:22px;height:22px}
+    .logo strong{font-weight:700;letter-spacing:.2px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+
+    .hero{padding:72px 0 48px;display:grid;gap:18px}
+    h1{font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0}
+    .sub{font-size:clamp(16px,3.2vw,20px);color:var(--muted);max-width:800px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .btn{appearance:none;border:none;padding:14px 18px;border-radius:12px;font-weight:600;cursor:pointer;text-decoration:none}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),#6df6ff);color:#00222a;box-shadow:0 6px 30px rgba(0,240,255,.25)}
+    .btn.ghost{background:transparent;border:1px solid rgba(155,179,208,.35);color:var(--text)}
+
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:36px 0}
+    .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:18px}
+    .card h3{margin:0 0 8px 0;font-size:18px}
+    .card p{margin:0;color:var(--muted)}
+
+    .strip{margin-top:32px;border-top:1px solid rgba(255,255,255,.06);padding-top:24px;color:var(--muted);font-size:14px}
+    footer{margin-top:48px;color:var(--muted);font-size:14px}
+    a{color:var(--accent)}
+  </style>
+
+  <!-- Basic JSON-LD for Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ScaleOnLabs",
+    "url": "https://scaleonlabs.com/",
+    "logo": "https://scaleonlabs.com/favicon.svg",
+    "sameAs": [
+      "https://github.com/scaleonlabs"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="#" aria-label="ScaleOnLabs home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 16c3 0 5-1.5 7-5s4-5 7-5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <strong>ScaleOnLabs</strong>
+      </a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>We Scale Startups — Cloud, DevOps & SRE Experts</h1>
+      <p class="sub">Cut cloud costs, ship faster, and sleep better. We design resilient infrastructure, CI/CD, observability, and reliability for fast‑growth teams.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Book a Free Strategy Call</a>
+        <a class="btn ghost" href="mailto:hello@scaleonlabs.com">hello@scaleonlabs.com</a>
+      </div>
+    </section>
+
+    <section id="services" class="cards" aria-label="Key service offerings">
+      <article class="card">
+        <h3>Cloud Readiness Audit</h3>
+        <p>One‑week assessment with a prioritized roadmap for scalability, cost, and security.</p>
+      </article>
+      <article class="card">
+        <h3>Infra Scale‑Up (AWS/GCP)</h3>
+        <p>Terraform, Kubernetes, CI/CD. Production‑grade patterns that grow with you.</p>
+      </article>
+      <article class="card">
+        <h3>Reliability & Observability</h3>
+        <p>SRE practices, SLIs/SLOs, incident response, logging/metrics/tracing you can trust.</p>
+      </article>
+      <article class="card">
+        <h3>Cost Optimization</h3>
+        <p>Right‑size compute and storage, automate savings, and keep velocity high.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="strip" aria-label="Contact">
+      <p><strong>Ready to talk?</strong> Email <a href="mailto:hello@scaleonlabs.com">hello@scaleonlabs.com</a> or book a call (add your <em>Calendly</em> link here).</p>
+    </section>
+
+    <footer>
+      <div>© <span id="y"></span> ScaleOnLabs. All rights reserved.</div>
+    </footer>
+  </div>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
